@@ -44,7 +44,7 @@
             <constraints border-constraint="Center"/>
             <properties>
               <horizontalAlignment value="0"/>
-              <text value="100"/>
+              <text value="Slider Value = 100%"/>
             </properties>
           </component>
         </children>

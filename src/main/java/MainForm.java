@@ -40,7 +40,7 @@ public class MainForm {
                 JSlider source = (JSlider) e.getSource();
                 //if (!source.getValueIsAdjusting()) {
                 int myValue = source.getValue();
-                statusLabel.setText("" + myValue);
+                statusLabel.setText("Slider Value = " + myValue + "%");
                 drawingPanel1.setPct(myValue);
                 drawingPanel1.repaint();
                 //}
