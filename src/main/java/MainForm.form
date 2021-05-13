@@ -40,11 +40,11 @@
               <value value="100"/>
             </properties>
           </component>
-          <component id="dcd1a" class="javax.swing.JLabel" binding="statusLabel">
+          <component id="dcd1a" class="javax.swing.JLabel" binding="statusLabel" custom-create="true">
             <constraints border-constraint="Center"/>
             <properties>
               <horizontalAlignment value="0"/>
-              <text value="Slider Value = 100%"/>
+              <text value="&quot;Slider Value = 100%&quot;"/>
             </properties>
           </component>
         </children>

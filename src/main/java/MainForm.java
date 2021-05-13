@@ -40,7 +40,7 @@ public class MainForm {
                 JSlider source = (JSlider) e.getSource();
                 //if (!source.getValueIsAdjusting()) {
                 int myValue = source.getValue();
-                statusLabel.setText("Slider Value = " + myValue + "%");
+                statusLabel.setText("Hello " + myValue);
                 drawingPanel1.setPct(myValue);
                 drawingPanel1.repaint();
                 //}
@@ -72,6 +72,7 @@ public class MainForm {
 
     private void createUIComponents() {
         // TODO: place custom component creation code here
+        statusLabel = new JLabel();
         drawingPanel1 = new DrawingPanel();
         slider1 = new JSlider();
     }
